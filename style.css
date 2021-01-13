@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    background: #c9c9c9;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    border-radius: 10px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(113, 226, 192);
+}
+
+.container {
+    height: 100vh;
+}
+
+.tdlist {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+#todo {
+    list-style-type: none;
+}
+
+.task {
+    padding: 0;
+}
+
+.task:hover span {
+    width: 50px;
+    opacity: 1.0;
+    margin: 0 10px 0 0;
+}
+
+.task span {
+    width: 0px;
+    background: red;
+    border: 2px solid red;
+    display: inline-block;
+    transition: .2s linear;
+    opacity: 0;
+}
+
+li {
+    border: 1px solid black;
+    padding: 4px;
+    background: white;
+}
+
+li:first-of-type {
+    border-radius: 10px 10px 0 0;
+}
+
+li:last-of-type {
+    border-radius: 0 0 10px 10px;
+}
+
+li:last-of-type span {
+    border-radius: 0 0 0 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=text] {
+    width: 80%;
+    /* padding: 13px 13px 13px 20px; */
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+button {
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+}
+
+button[name=add] {
+    float: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+button[name=id] {
+    margin: 0 10px 0 0;
+    font-size: 24px;
+}
+
+button {
+    padding: 6px 10px 6px 10px;
+    box-sizing: border-box;
+}
